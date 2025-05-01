@@ -28,7 +28,7 @@ const useCustomApollo = () => {
   const token = useCookie("auth_token");
 
   const httpLink = new HttpLink({
-    uri: config.public.BASE_URL,
+    uri: config.public.baseURL,
     useGETForQueries: true,
   });
 
