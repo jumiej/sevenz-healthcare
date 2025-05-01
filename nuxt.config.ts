@@ -37,6 +37,5 @@ export default defineNuxtConfig({
     },
   },
 
-  nitro: { preset: "vercel-edge" },
-  ssr: true,
+  nitro: { preset: "vercel" },
 });
