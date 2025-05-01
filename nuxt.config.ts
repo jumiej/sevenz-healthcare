@@ -8,8 +8,7 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      baseURL: process.env.BASE_URL,
-      // baseURL: "https://rickandmortyapi.com/api",
+      BASE_URL: process.env.NUXT_PUBLIC_BASE_URL,
     },
   },
 
